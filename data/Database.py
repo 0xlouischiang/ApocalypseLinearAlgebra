@@ -35,9 +35,9 @@ class ODBC:
 
 
 def main():
-    ms = ODBC(server='localhost', uid='sa', pwd='', db="")
-    sql = ms.ExecQuery('SELECT  * from  ')
-
+    ms = ODBC(server='.', uid='sa', pwd='', db="Water")
+    ms.GetConnect()
+    sql = ms.ExecQuery('SELECT top 10  * from Influent')
     print(sql)
 
 
