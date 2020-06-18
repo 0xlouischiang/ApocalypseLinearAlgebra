@@ -36,7 +36,7 @@ class ODBC:
 
 def main():
     ms = ODBC(server='localhost', uid='sa', pwd='', db="")
-    sql = ms.ExecQuery('SELECT top 5 * from [] ')
+    sql = ms.ExecQuery('SELECT  * from  ')
 
     print(sql)
 
