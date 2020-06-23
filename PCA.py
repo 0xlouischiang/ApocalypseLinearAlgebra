@@ -5,5 +5,3 @@ from sklearn.decomposition import PCA
 iris = load_iris()
 y = iris.target
 x = iris.data
-
-print(iris)
